@@ -1,0 +1,9 @@
+.config/ranger/colorschemes/__pycache__
+.config/ranger/colorschemes/__init__.py
+.config/ytp/key.sh
+.config/qtile/__pycache__
+.config/tmux/plugins
+
+keychain/decrypted
+keychain/__pycache__
+java/javafx-sdk-21.0.2
