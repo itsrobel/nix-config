@@ -123,47 +123,12 @@
   jack2
   pulseaudio
   git
-  go
-  wofi
   unzip
   neovim
-  fastfetch
-  zsh
-  oh-my-zsh
-  zsh-completions
-  zsh-syntax-highlighting
-  tmux
-  brave
-  stow
-  zig
-  gcc
   kitty
-  zoxide
-  zathura
-  eza
-  fzf
+  gcc
   python3
-  nodejs_22
-  luarocks
-  lua
-  php
-  zulu
-  go
-  julia
   python311Packages.pip
-  cargo
-  tree-sitter
-  ruby
-  lua51Packages.tl
-  ripgrep
-  lazygit
-  fd
-  texlivePackages.latexmk
-  biber
-  texlivePackages.bibtex
-  clang
-  waybar
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
 
