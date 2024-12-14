@@ -1,9 +1,25 @@
 { config, pkgs, ... }: {
   home.packages = [ pkgs.thefuck ];
+  programs.zoxide = {
+    enable = true;
+    enableZshIntegration = true;
+  };
   programs.zsh = {
     enable = true;
     enableCompletion = true;
-    autosuggestion.enable = true;
+
+    # initExtra = ''
+    #   . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+    # '';
+    # enableAutosuggestions = true;
+    autosuggestion = {
+      enable = true;
+      strategy = [ "history" "completion" ];
+
+    };
+    # autosuggestions = {
+    #   enable = true;
+    # };
     syntaxHighlighting.enable = true;
 
     oh-my-zsh = {

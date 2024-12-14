@@ -25,7 +25,7 @@ set $emacs-server emacs -daemon
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
-output * bg ~/wallpaper/first-collection/arch.png fill
+output * bg ~/pictures/wallpapers/anime-rain-girl.jpg fill
 #
 # Example configuration:
 #
